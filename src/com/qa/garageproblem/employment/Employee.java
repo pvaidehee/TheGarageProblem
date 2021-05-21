@@ -9,6 +9,7 @@ public class Employee {
 	
 	public Employee(String name, int age, String gender, double annualSalary) {
 		super(name, age, gender);
+		
 		this.annualSalary = annualSalary;
 		this.weeklySalary = calculateWeeklySalary();
 	}
